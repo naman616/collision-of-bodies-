@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+#controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+button {
+  margin: 0 10px;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#simulation {
+  width: 800px;
+  height: 300px;
+  border: 3px solid black;
+  margin: 0 auto;
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.block {
+  position: absolute;
+  top: 130px;
+  border-radius: 5px;
+}
+
+#block1 {
+  background-color: lightgreen;
+}
+
+#block2 {
+  background-color: lightblue;
+}

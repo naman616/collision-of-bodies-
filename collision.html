@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Block Collision Simulation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="controls">
+  <label>Block 1 Mass (kg): <input id="m1" type="number" value="2"></label>
+  <label>Velocity (m/s): <input id="v1" type="number" value="3"></label><br><br>
+
+  <label>Block 2 Mass (kg): <input id="m2" type="number" value="5"></label>
+  <label>Velocity (m/s): <input id="v2" type="number" value="-3"></label><br><br>
+
+  <button onclick="startSimulation()">Start</button>
+  <button onclick="stopSimulation()">Stop</button>
+</div>
+
+<div id="simulation">
+  <div id="block1" class="block"></div>
+  <div id="block2" class="block"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
